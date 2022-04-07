@@ -34,13 +34,13 @@ function boundary(n){
 console.log(boundary(500));
 //ex5
 function strivify(x){
-    if(x==="Strive"){
+    if(x.startsWith("Strive")){
         console.log(x);
     }else{
         console.log(`${x} Strive`);
     }
 }
-strivify("Striving")
+strivify("hello Strivers")
 //ex6
 function check3and7(x){
     if(x%3===0 && x%7===0){
@@ -82,6 +82,6 @@ console.log(cutString("Hello"));
 //ex10
 function giveMeRandom(n){
     for(let i=0; i<=n ; i++){
-        
+
     }
 }

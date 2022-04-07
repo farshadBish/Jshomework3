@@ -65,14 +65,13 @@ console.log(boundary(500));
 */
 
 function strivify(x){
-    if(x==="Strive"){
+    if(x.startsWith("Strive")){
         console.log(x);
     }else{
         console.log(`${x} Strive`);
     }
 }
-strivify("Striving")
-
+strivify("hello Strivers")
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
  HINT: Modulus Operator
